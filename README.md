@@ -1,3 +1,4 @@
+```markdown
 # 🤖 Intelligent Chatbot — Addiction Prevention Assistant
 
 An NLP-driven conversational agent designed to support addiction prevention
@@ -26,25 +27,35 @@ intent classification, and matched to a supportive response.
 
 ## 🚀 Getting Started
 
+Clone the repository:
+
+    git clone https://github.com/YOUR-USERNAME/addiction-prevention-chatbot.git
+    cd addiction-prevention-chatbot
+
 Install the dependencies:
 
     pip install -r requirements.txt
 
-Train the model and start the app:
+Train the model (optional — a pre-trained `data.pth` is included):
 
     python train.py
-    python app.py
+
+Start the application:
+
+    python chat.py
 
 Then open the chat interface in your browser at `http://127.0.0.1:5000`.
 
 ## 📁 Project Structure
 
-    addiction-prevention-chatbot/
-    ├── app.py            # Flask REST API
-    ├── train.py          # Model training script
-    ├── intents.json      # Training data (intents and responses)
-    ├── static/           # CSS and JavaScript files
-    └── templates/        # HTML files
+    ├── chat.py          # Flask app and chatbot logic
+    ├── model.py         # Neural network model definition (PyTorch)
+    ├── nltk_utils.py    # Text preprocessing helpers (NLTK)
+    ├── train.py         # Model training script
+    ├── intents.json     # Training data (intents and responses)
+    ├── data.pth         # Trained model weights
+    ├── static/          # CSS and JavaScript files
+    └── templates/       # HTML files
 
 ## 🔮 Future Improvements
 
@@ -55,6 +66,9 @@ Then open the chat interface in your browser at `http://127.0.0.1:5000`.
 ---
 
 *Developed as a final year project for a Bachelor's degree.*
+```
+
+
 
 
 
