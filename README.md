@@ -55,5 +55,9 @@ Then open the chat interface in your browser at `http://127.0.0.1:5000`.
 ---
 
 *Developed as a final year project for a Bachelor's degree.*
-```
+
+
+
+<img width="2992" height="2113" alt="0001" src="https://github.com/user-attachments/assets/49589fab-048c-4575-8c44-93cc41718a7f" />
+
 
