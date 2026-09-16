@@ -27,15 +27,6 @@ intent classification, and matched to a supportive response.
 
 ## 🚀 Getting Started
 
-Clone the repository:
-
-    git clone https://github.com/YOUR-USERNAME/addiction-prevention-chatbot.git
-    cd addiction-prevention-chatbot
-
-Install the dependencies:
-
-    pip install -r requirements.txt
-
 Train the model (optional — a pre-trained `data.pth` is included):
 
     python train.py
