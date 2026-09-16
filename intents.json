@@ -1,0 +1,267 @@
+  
+{
+  "intents": [
+    {
+      "tag": "Fancais",
+      "patterns": ["fr"],
+      "responses": ["Langue francaise selectionnee. Discutons ensemble!"]
+    },
+    {
+      "tag": "Anglais",
+      "patterns": ["en"],
+      "responses": ["English selected. Let's chat!"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey ",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "salutations",
+      "patterns": ["salut","slt","bonjour","bonsoir"],
+      "responses": ["bonjour","comment cv?","salut"]
+    },
+    {
+      "tag": "aurevoir",
+      "patterns": ["bye","au revoir","a bientot"],
+      "responses": ["bye, merci pour la visite","au revoir","a bientot"]
+    },
+    {
+      "tag": "services fr",
+      "patterns": ["Quels services proposez-vous","que fais tu?","a quoi sert ce chatbot?"],
+      "responses": ["Je peux repondre a vos questions sur l'addiction et vous fournir des statistiques detaillees",
+      "Je suis votre ticket pour toute information sur l'addiction",
+      " Vous cherchez des informations sur Addiction ? je me ferai un plaisir de repondre a toutes vos questions "]
+    },
+    {
+      "tag": "aide",
+      "patterns": [
+        "Pouvez vous m'aider?",
+        "Je suis venu ici chercher de l'aide",
+        "Peux tu m'aider a combattre la dependance ?",
+        "Puis je vous poser quelques questions?",
+        "J'ai besoin de votre aide pour vaincre ma dependance"
+         ],
+      "responses": [
+        "Bien sur, je serai ravi de vous aider, mais vous devez d'abord preciser votre age (<25 / >25) et la chose a laquelle vous etes accro (tabac/alcool/drogues/technologie)",
+        "C'est ce que je fais le mieux, veuillez preciser votre age (<25 / >25) et la chose a laquelle vous etes accro (tabac/alcool/drogues/technologie)",
+        "Ne vous inquiétez pas, c'est pour ça que j'ai été fait, la seule chose que vous devez faire est de spécifier votre âge (<25 / >25) et la chose à laquelle vous êtes accro (tabac/alcool/drogues/technologie)"
+      ]
+    },
+    {
+      "tag": "<25 technologie ",
+      "patterns": ["<25 et technologie","je suis moins de 25 ans et je suis accro a la technologie ","<25 et technologie"],
+      "responses":["Les dernieres etudes montrent que 80% des tunisiens sont accros a la technologie, 80% d'entre eux sont devenus accros avant 25 ans mais ne vous inquietez pas je vais vous aider a surmonter votre dependance."
+      ]
+    },
+    {
+      "tag": "technologie des solutions",
+      "patterns": [
+        "mais comment puis-je surmonter mon addiction a la technologie?",
+        " Comment puis-je arreter la dependance au jeu ? "
+         ],
+      "responses": [
+        "C'est la dependance la plus facile a arreter car elle ne necessite que la volonte d'arreter. Si c'est difficile pour vous, essayez de definir un horaire pour les jeux ou les reseaux sociaux, vous pouvez essayer de passer plus de temps a l'exterieur ou de sortir avec des amis, essayez aussi de vous occuper donc vous n'avez pas beaucoup de temps libre pour utiliser votre telephone ou votre ordinateur."
+      ]
+    },
+    {
+      "tag": "remerciements",
+      "patterns": ["merci","super","merci bien"],
+      "responses": ["de rien","c'est mon devoir"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "what services do you provide?",
+        "what do you do?",
+        "what is the purpose of this chatbot?"
+         ],
+      "responses": [
+        "I can answer your questions about addiction and provide detailed statistics ",
+        "I am your ticket to any information about addiction",
+        "Do you seek informations about Addiction? i will be happy to answer all your questions "
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "can you help me?",
+        "I came here seeking help ",
+        "Can you help me fight the addiction?",
+        "Can i ask you a few questions?",
+        "I need your help to overcome my addiction"
+         ],
+      "responses": [
+        "Sure, i will be happy to help, but first you need to specify your age(<25 / >25) and the thing you are addicted to(tobacco/alchool/drugs/technology)",
+        "That's what i do best, please specify your age(<25 / >25) and the thing you are addicted to(tobacco/alchool/drugs/technology)",
+        "Don't worry that's what i was made for, the only thing u need to do is to specify your age(<25 / >25) and the thing you are addicted to(tobacco/alchool/drugs/technology)"
+      ]
+    },
+    {
+      "tag": "<25tobacoo ",
+      "patterns": ["<25 and tobacoo","iam younger than 25 and i am a tobacoo addict","<25 and nicotine addiction","younger than 25 and cigarettes addiction"],
+      "responses":["Latest studies show that 26% of tunisian people are smokers, 65% of them started smoking before 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+      "tag": ">25tobacoo ",
+      "patterns": [">25 and tobacoo","iam older than 25 and i am a tobacoo addict",">25 and nicotine addiction","older than 25 and cigarettes addiction"],
+      "responses":["Latest studies show that 26% of tunisian people are smokers, 35% of them started smoking after 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+      "tag": "<25 alchool ",
+      "patterns": ["<25 and alchool","iam younger than 25 and i am alcohol addict","<25 and alcoholic"],
+      "responses":["Latest studies show that 30% of tunisian people are alcoholics, 75% of them started drinking before 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+    "tag": ">25 alchool ",
+      "patterns": [">25 and alchool","i am older than 25 and i am alcohol addict",">25 and alcoholic"],
+      "responses":["Latest studies show that 30% of tunisian people are alcoholics, 25% of them started drinking after 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+      "tag": "<25 drugs ",
+      "patterns": ["<25 and drugs","iam younger than 25 and i am drug addict","<25 and drugs"],
+      "responses":["Latest studies show that 58% of tunisian people are addicts, 70% of them started consuming before 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+      "tag": ">25 drugs ",
+      "patterns": [">25 and drugs","iam older than 25 and i am drug addict",">25 and drugs"],
+      "responses":["Latest studies show that 58% of tunisian people are addicts, 30% of them started consuming after 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+      "tag": "<25 technology ",
+      "patterns": ["<25 and technology","iam younger than 25 and i am addicted to technology ","<25 and technology"],
+      "responses":["Latest studies show that 80% of tunisian people are addicted to technology, 80% of them got addicted before 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+      "tag": ">25 technology ",
+      "patterns": [">25 and technology","iam older than 25 and i am addicted to technology ",">25 and technology"],
+      "responses":["Latest studies show that 80% of tunisian people are addicted to technology, 20% of them got addicted after 25 but don't worry i will help you overcome your addiction."
+      ]
+    },
+    {
+      "tag": "solutions tobacoo",
+      "patterns": [
+        "but how can i overcome my tobacoo addiction?",
+        "how can i stop smoking?"
+         ],
+      "responses": [
+        "there are many solutions to help you quit smoking. Try to gradually increase the time between cigarettes. Smoke only during even hours. Limit your smoking to certain places (outside, not at work, not in the car) or Wait as late in the day as possible to start smoking. you can also try sports or meditation"
+      ]
+    },
+    {
+      "tag": "solutions alcohol",
+      "patterns": [
+        "but how can i overcome my alcohol addiction?",
+        "how can i stop drinking?"
+         ],
+      "responses": [
+        " there are many ways to quit drinking. Don't keep alcohol in your house, avoid bars , be persistent and ask for support if needed"
+      ]
+    },
+    {
+      "tag": "solutions drugs",
+      "patterns": [
+        "but how can i overcome my drug addiction?",
+        "how can i stop drug use ?"
+         ],
+      "responses": [
+        " there are many ways to quit drugs. Cut out toxic relationships, utilize support systems, Practice positive self talk or try adopting a pet it helps to walk away from stress."
+      ]
+    },
+    {
+      "tag": "solutions technology",
+      "patterns": [
+        "but how can i overcome my addiction to technology?",
+        "how can i stop gaming addiction?"
+         ],
+      "responses": [
+        "It's the easiest addiction to quit since it only requires the willingness to stop. If it's hard for you try setting a schedule for games or social media , you can try to spend more time outside or hang out with freinds , try also to get busy so u dont get much free time to use your phone  or computer."
+      ]
+    },
+    {
+      "tag": "salem",
+      "patterns": [
+        "salem"
+         ],
+      "responses": [
+        "w 3laykom salem"
+      ]
+    },
+    {
+      "tag": "fazet",
+      "patterns": [
+        "chnya y3ml hal chat bot?"
+         ],
+      "responses": [
+        "5oya ena chatbot n3alej l edmen, n3tyk statistiques w nans7k kifh tbatl"
+      ]
+    },
+    {
+      "tag": "mo3awna",
+      "patterns": [
+        "tjm t3wni nbtl l edmen?"
+         ],
+      "responses": [
+        "eyh betbi3a. ama 9bal lzm t9oli 3omrek(<25/>25) w chnya l edmen mt3k(do5an,ko7ol,mo5adrat,pc w telifoun) "
+      ]
+    },
+    {
+      "tag": "<25 zatla",
+      "patterns": [
+        "3omri 20 w modmen 3al mo5adrat"
+         ],
+      "responses": [
+        "le7sayet t9ol ly famma 58% ml twensa modmnin 3al drog bsifa 3ama, 70% menhom bdew yestahlko w 3marhom a9al mn 25. ama mat7ot chay fy belk barsha na7aw l edmen mt3hom."
+      ]
+    },
+    {
+      "tag": "7al zatla",
+      "patterns": [
+        "kifh njm na7y l edmen mt3 mo5drat"
+         ],
+      "responses": ["famma barcha 7olol bsh tn7y l edmen mt3 mo5drat. awl 7aja lzmk m3dsh t5alet l 3bed ly tbi3 w testahlk , tjm zeda tchof les centres mt3 mo3alja , tjm zeda tlhy ro7k b 7ajet o5ra behya , t3ml sport mathalan wala activite t5lyk tn7y stress w terte7."
+      ]
+    },
+    {
+      "tag": "ta7yeti",
+      "patterns": [
+        "3ychk 5oya, beslema"
+         ],
+      "responses": ["tfadhal 5oya fy kol wa9t."
+      ]
+    }
+  ]
+}
