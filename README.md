@@ -1,4 +1,3 @@
-```markdown
 # 🤖 Intelligent Chatbot — Addiction Prevention Assistant
 
 An NLP-driven conversational agent designed to support addiction prevention
@@ -26,11 +25,6 @@ intent classification, and matched to a supportive response.
 | Frontend | JavaScript, HTML5, CSS3 |
 
 ## 🚀 Getting Started
-
-Clone the repository:
-
-    git clone https://github.com/YOUR-USERNAME/addiction-prevention-chatbot.git
-    cd addiction-prevention-chatbot
 
 Install the dependencies:
 
