@@ -63,13 +63,13 @@ Then open the chat interface in your browser at `http://127.0.0.1:5000`.
 
 
 
-<img width="750" height="600" alt="0001" src="https://github.com/user-attachments/assets/49589fab-048c-4575-8c44-93cc41718a7f" />
+<img width="850" height="600" alt="0001" src="https://github.com/user-attachments/assets/49589fab-048c-4575-8c44-93cc41718a7f" />
 
 
-<img width="750" height="600" alt="1" src="https://github.com/user-attachments/assets/dce4c3fa-c7ef-4708-bc0b-110206dabc66" />
+<img width="850" height="600" alt="1" src="https://github.com/user-attachments/assets/dce4c3fa-c7ef-4708-bc0b-110206dabc66" />
 
 
-<img width="750" height="600" alt="2" src="https://github.com/user-attachments/assets/20056347-aa89-49af-ad0f-f962d5d28158" />
+<img width="850" height="600" alt="2" src="https://github.com/user-attachments/assets/20056347-aa89-49af-ad0f-f962d5d28158" />
 
-<img width="750" height="600" alt="use_case_iheb_4_page-0001" src="https://github.com/user-attachments/assets/bd09a9ea-ba26-4061-95b8-999235d7ce48" />
+<img width="850" height="600" alt="use_case_iheb_4_page-0001" src="https://github.com/user-attachments/assets/bd09a9ea-ba26-4061-95b8-999235d7ce48" />
 
